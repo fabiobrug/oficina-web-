@@ -7,7 +7,7 @@ h1 {
     border: 20px solid blue;
     align-content: center;
     width: 300px;
-    height: 100px;
+    height: 50px;
     border-radius: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 
@@ -23,6 +23,25 @@ img {
     height: 150px;
     margin: 15px;
 }
-div{
-    display: flex;
+
+/* styles.css */
+.botao-link {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #dc552d;
+    color: white;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-link:hover {
+    background-color: #0056b3;
+  }
+  div{
+    display: inline-block;
+    align-items: center;
+    margin: 100px auto;
 }
