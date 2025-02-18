@@ -1,0 +1,28 @@
+h1 {
+    color:red;
+    background-color: rgb(243, 243, 9);
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    border: 20px solid blue;
+    align-content: center;
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    font-weight: initial;
+    text-align: left;
+}
+img {
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+}
+div{
+    display: flex;
+}
